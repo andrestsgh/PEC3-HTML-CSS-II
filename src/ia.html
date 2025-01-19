@@ -1,18 +1,107 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Participantes - Jornadas de Seguridad</title>
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-  </head>
-  <body>
-    <include src="views/header.html"></include>
+    <title>Concurso de Cocina 2024</title>
+    <link rel="stylesheet" href="./assets/styles/ia.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h3>Concurso de Cocina 2024</h3>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">El Concurso</a></li>
+                <li><a href="#">Recetas</a></li>
+                <li><a href="#">Concursantes</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <main class="px-12">
-      <h1 class="text-4xl text-center text-primary mb-6 font-medium">IA Generativa</h1>
+    <main>
+        <div class="hero">
+            <div class="center">
+                            <h1>Concursantes</h1>
+            <p>Esta sección describe las recetas de los mejores concursantes.</p>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://picsum.photos/600/300" alt="Imagen de fondo">
+            </div>
+            <h2>Las recetas</h2>
+            <p>Estas son las recetas de los mejores concursantes.</p>
+        </div>
+        <section class="recipes">
+            <article class="recipe">
+                <h3>Cajun Seafood Pasta</h3>
+                <div class="author">
+                    <img src="https://picsum.photos/50/50" alt="John Cooper">
+                    <div>
+                        <h4>John Cooper</h4>
+                        <p>Esta receta de pasta con mariscos cajún es picante pero deliciosa!</p>
+                    </div>
+                </div>
+            </article>
+            <article class="recipe">
+                <h3>Salmón a la Plancha</h3>
+                <div class="author">
+                    <img src="https://picsum.photos/50/50" alt="Marta Alonso">
+                    <div>
+                        <h4>Marta Alonso</h4>
+                        <p>El salmón alcanza su máximo potencial cuando se asa sobre una tabla de cedro.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="recipe">
+                <h3>Pollo al Vinagre</h3>
+                <div class="author">
+                    <img src="https://picsum.photos/50/50" alt="Mary Ann Stones">
+                    <div>
+                        <h4>Mary Ann Stones</h4>
+                        <p>Irresistible pollo, cocinado con vinagre.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
 
-    <include src="views/footer.html"></include>
-  </body>
+    <footer>
+        <div class="footer-left">
+            <h2>Concurso de Cocina 2024</h2>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <div class="column">
+                <h3>Recetas</h3>
+                <ul>
+                    <li>Cajun Seafood Pasta</li>
+                    <li>Salmón a la Plancha</li>
+                    <li>Pollo al Vinagre</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Autores</h3>
+                <ul>
+                    <li>John Cooper</li>
+                    <li>Marta Alonso</li>
+                    <li>Mary Ann Stones</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Años</h3>
+                <ul>
+                    <li>2024</li>
+                    <li>2023</li>
+                    <li>2022</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
