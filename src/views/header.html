@@ -1,0 +1,30 @@
+<header class="bg-primary lg:px-12">
+  <nav class="bg-transparent py-2">
+    <div class="flex justify-between items-center flex-wrap w-full px-3">
+      <a href="index.html" class="flex items-center justify-center mx-auto py-5px z-10">
+        <img src="./assets/images/logo_aac.png" alt="Logo" class="h-16 lg:h-24">
+        <div class="text-start text-white">
+          <div class="font-bold text-xl">AAC</div>
+          <div class="font-light leading-snug text-base">Asociación Alicantina</div>
+          <div class="font-light leading-snug text-base">de Ciberseguridad</div>
+        </div>
+      </a>
+  
+      <!-- Checkbox oculto para manejar el estado -->
+      <input type="checkbox" id="toggle" class="hidden peer">
+    
+      <!-- Botón de alternar -->
+      <label for="toggle" class="px-4 py-2 text-3xl text-white border border-solid rounded-md cursor-pointer opacity-50 hover:opacity-70 transition-opacity lg:hidden">
+        <i class="fa-solid fa-bars"></i><!--☰-->
+      </label>
+
+      <div id="navbarNav" class="grow basis-full lg:basis-0 hidden peer-checked:flex lg:flex lg:items-center lg:justify-end space-y-2 lg:space-y-0 lg:space-x-6 lg:mt-0 z-10">
+        <ul class="flex flex-col lg:flex-row w-full lg:justify-end text-white text-end uppercase lg:capitalize">
+          <li class="nav-link"><a href="participantes.html" class="w-full opacity-50 hover:opacity-70 transition-opacity">Participantes</a></li>
+          <li class="nav-link lg:border-x"><a href="#" class="w-full opacity-50 hover:opacity-70 transition-opacity">Blog</a></li>
+          <li class="nav-link"><a href="ia.html" class="w-full opacity-50 hover:opacity-70 transition-opacity">IA Generativa</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

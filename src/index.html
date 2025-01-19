@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>Inicio - Jornadas de Seguridad</title>
+  </head>
+  <body>
+    <include src="views/header.html"></include>
+
+    <main class="text-center">
+      <include src="views/front_page.html">
+        {
+          "event_picture":"./assets/images/home_front.jpg",
+          "title":"Jornadas de Seguridad Informática",
+          "subtitle":"Descubre, Aprende y Conéctate",
+          "date":"14-16 de Marzo, 2024",
+          "text_button":"¡Inscríbete ahora!",
+          "url_ref":"participantes.html"
+        }
+      </include>
+    </main>
+  
+    <include src="views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>

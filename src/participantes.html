@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participantes - Jornadas de Seguridad</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  </head>
+  <body>
+    <include src="views/header.html"></include>
+
+    <main class="px-12">
+      <h1 class="text-4xl text-center text-primary mb-6 font-medium">Participantes</h1>
+      <div class="flex flex-nowrap md:flex-wrap flex-col md:flex-row gap-6 justify-center">
+
+        <include src="views/speaker_card.html">
+          {
+            "image":"./assets/images/pexels-hannah-nelson-390257-1065084.jpg",
+            "alt":"Participante 1",
+            "name":"Anna Malana",
+            "description":"Experta en seguridad. Trabaja desde hace más de 10 años en el sector privado de las telecomunicaciones realizando auditorías de red a medianas y grandes empresas. Su especialidad es el análisis forense tras un robo de datos."
+          }
+        </include>
+
+        <include src="views/speaker_card.html">
+          {
+            "image":"./assets/images/pexels-justin-shaifer-501272-1222271.jpg",
+            "alt":"Participante 2",
+            "name":"Justino Monino",
+            "description":"Empezó en el mundo de la seguridad con tan sólo 15 años. Su pasión son los videojuegos, y actualmente trabaja en una gran empresa auditando fallos de seguridad en sus productos del mercado de videojuegos y consolas."
+          }
+        </include>
+
+        <include src="views/speaker_card.html">
+          {
+            "image":"./assets/images/pexels-mastercowley-1300402.jpg",
+            "alt":"Participante 3",
+            "name":"Paco Marco",
+            "description":"Experto en análisis forense. Lleva más de 10 años asesorando a medianas y grandes empresas tras incidentes de robo de datos. Su especialidad es la detección de brechas de seguridad."
+          }
+        </include>
+
+        <include src="views/speaker_card.html">
+          {
+            "image":"./assets/images/pexels-moose-photos-170195-1036623.jpg",
+            "alt":"Participante 4",
+            "name":"María 'Pinky Secure'",
+            "description":"Con tan sólo 15 años comenzó su carrera en la ciberseguridad. Actualmente trabaja en la industria del entretenimiento, auditando la seguridad en redes para videojuegos y consolas de última generación."
+          }
+        </include>
+
+        <include src="views/speaker_card.html">
+          {
+            "image":"./assets/images/pexels-olly-712513.jpg",
+            "alt":"Participante 5",
+            "name":"Alanna Morgana",
+            "description":"Experta en telecomunicaciones y ciberseguridad. Ha trabajado en múltiples proyectos globales para asegurar la privacidad y seguridad de los usuarios en redes corporativas."
+          }
+        </include>
+
+        <include src="views/speaker_card.html">
+          {
+            "image":"./assets/images/pexels-olly-834863.jpg",
+            "alt":"Participante 6",
+            "name":"Francisco Perea",
+            "description":"Especialista en protección de datos. Con experiencia en detección de vulnerabilidades, ayuda a empresas a optimizar la seguridad en aplicaciones y productos tecnológicos."
+          }
+        </include>
+
+      </div>
+    </main>
+
+    <include src="views/footer.html"></include>
+  </body>
+</html>
